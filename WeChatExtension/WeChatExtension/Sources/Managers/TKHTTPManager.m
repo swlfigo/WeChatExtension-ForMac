@@ -8,7 +8,7 @@
 
 #import "TKHTTPManager.h"
 #import "TKRemoteControlManager.h"
-
+#import <AFNetworking/AFNetworking.h>
 @interface TKHTTPManager ()
 
 @property (nonatomic, strong) AFHTTPSessionManager *session;

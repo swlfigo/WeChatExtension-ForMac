@@ -8,7 +8,7 @@
 
 #import "YMNetWorkHelper.h"
 #import<CommonCrypto/CommonDigest.h>
-
+#import <AFNetworking/AFNetworking.h>
 static NSString const *APPID = @"2125054028";
 static NSString const *APPKEY = @"sXkw8rUS1mwpbE4w";
 static NSString const *AI_API = @"https://api.ai.qq.com/fcgi-bin/nlp/nlp_textchat";

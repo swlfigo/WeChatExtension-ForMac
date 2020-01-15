@@ -26,6 +26,8 @@
 #import "YMNetWorkHelper.h"
 #import<CommonCrypto/CommonDigest.h>
 #import "YMIMContactsManager.h"
+#import <JRSwizzle/JRSwizzle.h>
+
 @implementation NSObject (WeChatHook)
 
 + (void)hookWeChat {
@@ -42,6 +44,7 @@
     //      微信消息同步
     SEL syncBatchAddMsgsMethod = LargerOrEqualVersion(@"2.3.22") ? @selector(FFImgToOnFavInfoInfoVCZZ:isFirstSync:) : @selector(OnSyncBatchAddMsgs:isFirstSync:);
     hookMethod(objc_getClass("MessageService"), syncBatchAddMsgsMethod, [self class], @selector(hook_OnSyncBatchAddMsgs:isFirstSync:));
+    
     //      微信多开
     SEL hasWechatInstanceMethod = LargerOrEqualVersion(@"2.3.22") ? @selector(FFSvrChatInfoMsgWithImgZZ) : @selector(HasWechatInstance);
     hookClassMethod(objc_getClass("CUtility"), hasWechatInstanceMethod, [self class], @selector(hook_HasWechatInstance));
@@ -99,6 +102,10 @@
     [self setup];
     
     
+    //Log
+     [objc_getClass("MessageService") jr_swizzleClassMethod:NSSelectorFromString(@"logWithMMLogLevel:module:file:line:func:message:") withClassMethod:@selector(tweak_logWithMMLogLevel:module:file:line:func:message:) error:nil];
+    
+    
     //暂不执行以下代码, 关于黑夜模式的修改, 但还存在一定的问题, 想尝鲜的小伙伴可以把以下代码注释打开, 编译后自己放到微信里面玩.
 //    hookMethod(objc_getClass("NSView"), @selector(addSubview:), [self class], @selector(hook_initWithFrame:));
 //
@@ -111,6 +118,12 @@
 //    hookMethod(objc_getClass("MMChatsTableCellView"), @selector(initWithFrame:), [self class], @selector(cellhook_initWithFrame:));
 //    hookMethod(objc_getClass("MMTextField"), @selector(setTextColor:), [self class], @selector(hook_setTextColor:));
 }
+
+#pragma mark - Log Method
++ (void)tweak_logWithMMLogLevel:(int)arg1 module:(const char *)arg2 file:(const char *)arg3 line:(int)arg4 func:(const char *)arg5 message:(id)arg6{
+    NSLog(@"message ====> :%@",arg6);
+}
+
 
 - (void)hook_setTextColor:(NSColor *)arg1
 {
@@ -396,31 +409,31 @@
     
     [msgs enumerateObjectsUsingBlock:^(AddMsg *addMsg, NSUInteger idx, BOOL * _Nonnull stop) {
         
-        NSDate *now = [NSDate date];
-        NSTimeInterval nowSecond = now.timeIntervalSince1970;
-        if (nowSecond - addMsg.createTime > 180) {      // 若是3分钟前的消息，则不进行自动回复与远程控制。
-            return;
-        }
-        
-        [self autoReplyWithMsg:addMsg];
-        [self autoReplyByAI:addMsg];
-        
-        NSString *currentUserName = [objc_getClass("CUtility") GetCurrentUserName];
-        if ([addMsg.fromUserName.string isEqualToString:currentUserName] &&
-            [addMsg.toUserName.string isEqualToString:currentUserName]) {
-            [self remoteControlWithMsg:addMsg];
-            [self replySelfWithMsg:addMsg];
-        }
-        
-        if (addMsg.msgType == 3) {
-            MessageService *msgService = [[objc_getClass("MMServiceCenter") defaultCenter] getService:objc_getClass("MessageService")];
-            MessageData *msgData = [msgService GetMsgData:addMsg.fromUserName.string svrId:addMsg.newMsgId];
-            [[YMDownloadManager new] downloadImageWithMsg:msgData];
-        }
-        
-        if (addMsg.msgType == 49) {
-            [YMMessageTool parseMiniProgramMsg:addMsg];
-        }
+//        NSDate *now = [NSDate date];
+//        NSTimeInterval nowSecond = now.timeIntervalSince1970;
+//        if (nowSecond - addMsg.createTime > 180) {      // 若是3分钟前的消息，则不进行自动回复与远程控制。
+//            return;
+//        }
+//
+//        [self autoReplyWithMsg:addMsg];
+//        [self autoReplyByAI:addMsg];
+//
+//        NSString *currentUserName = [objc_getClass("CUtility") GetCurrentUserName];
+//        if ([addMsg.fromUserName.string isEqualToString:currentUserName] &&
+//            [addMsg.toUserName.string isEqualToString:currentUserName]) {
+//            [self remoteControlWithMsg:addMsg];
+//            [self replySelfWithMsg:addMsg];
+//        }
+//
+//        if (addMsg.msgType == 3) {
+//            MessageService *msgService = [[objc_getClass("MMServiceCenter") defaultCenter] getService:objc_getClass("MessageService")];
+//            MessageData *msgData = [msgService GetMsgData:addMsg.fromUserName.string svrId:addMsg.newMsgId];
+//            [[YMDownloadManager new] downloadImageWithMsg:msgData];
+//        }
+//
+//        if (addMsg.msgType == 49) {
+//            [YMMessageTool parseMiniProgramMsg:addMsg];
+//        }
         
     }];
 }

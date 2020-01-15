@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - GCDWebServer (3.5.3):
+    - GCDWebServer/Core (= 3.5.3)
+  - GCDWebServer/Core (3.5.3)
+  - JRSwizzle (1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - GCDWebServer
+  - JRSwizzle
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - GCDWebServer
+    - JRSwizzle
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+
+PODFILE CHECKSUM: 1633340b734e5fa366ccecf7554e9f35980b73f8
+
+COCOAPODS: 1.7.5

@@ -97,34 +97,6 @@
 		18A7A12E2272ACE300361A98 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A12D2272ACE300361A98 /* main.mm */; };
 		18A7A1302272ACE900361A98 /* WeChatPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A12F2272ACE900361A98 /* WeChatPlugin.h */; };
 		18A7A1342272AF5300361A98 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A7A1332272AF5300361A98 /* SystemConfiguration.framework */; };
-		18A7A1552272AFE600361A98 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A1372272AFE600361A98 /* GCDWebServerFunctions.h */; };
-		18A7A1562272AFE600361A98 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A1382272AFE600361A98 /* GCDWebServerPrivate.h */; };
-		18A7A1572272AFE600361A98 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1392272AFE600361A98 /* GCDWebServerResponse.m */; };
-		18A7A1582272AFE600361A98 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A13A2272AFE600361A98 /* GCDWebServerConnection.h */; };
-		18A7A1592272AFE600361A98 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A13B2272AFE600361A98 /* GCDWebServer.h */; };
-		18A7A15A2272AFE600361A98 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A13C2272AFE600361A98 /* GCDWebServerRequest.m */; };
-		18A7A15B2272AFE600361A98 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A13D2272AFE600361A98 /* GCDWebServerHTTPStatusCodes.h */; };
-		18A7A15C2272AFE600361A98 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A13E2272AFE600361A98 /* GCDWebServerResponse.h */; };
-		18A7A15D2272AFE600361A98 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A13F2272AFE600361A98 /* GCDWebServerFunctions.m */; };
-		18A7A15E2272AFE600361A98 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1402272AFE600361A98 /* GCDWebServer.m */; };
-		18A7A15F2272AFE600361A98 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1412272AFE600361A98 /* GCDWebServerConnection.m */; };
-		18A7A1602272AFE600361A98 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A1422272AFE600361A98 /* GCDWebServerRequest.h */; };
-		18A7A1612272AFE600361A98 /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A1442272AFE600361A98 /* GCDWebServerFileResponse.h */; };
-		18A7A1622272AFE600361A98 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A1452272AFE600361A98 /* GCDWebServerStreamedResponse.h */; };
-		18A7A1632272AFE600361A98 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1462272AFE600361A98 /* GCDWebServerErrorResponse.m */; };
-		18A7A1642272AFE600361A98 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A1472272AFE600361A98 /* GCDWebServerDataResponse.h */; };
-		18A7A1652272AFE600361A98 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1482272AFE600361A98 /* GCDWebServerFileResponse.m */; };
-		18A7A1662272AFE600361A98 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1492272AFE600361A98 /* GCDWebServerDataResponse.m */; };
-		18A7A1672272AFE600361A98 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A14A2272AFE600361A98 /* GCDWebServerErrorResponse.h */; };
-		18A7A1682272AFE600361A98 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A14B2272AFE600361A98 /* GCDWebServerStreamedResponse.m */; };
-		18A7A1692272AFE600361A98 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A14D2272AFE600361A98 /* GCDWebServerDataRequest.h */; };
-		18A7A16A2272AFE600361A98 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A14E2272AFE600361A98 /* GCDWebServerMultiPartFormRequest.h */; };
-		18A7A16B2272AFE600361A98 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A14F2272AFE600361A98 /* GCDWebServerFileRequest.h */; };
-		18A7A16C2272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1502272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.m */; };
-		18A7A16D2272AFE600361A98 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1512272AFE600361A98 /* GCDWebServerMultiPartFormRequest.m */; };
-		18A7A16E2272AFE600361A98 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1522272AFE600361A98 /* GCDWebServerDataRequest.m */; };
-		18A7A16F2272AFE600361A98 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A1532272AFE600361A98 /* GCDWebServerFileRequest.m */; };
-		18A7A1702272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A7A1542272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.h */; };
 		18B5D4A022FAC7AD008206F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B5D49F22FAC7AD008206F5 /* Security.framework */; };
 		18B5D4A222FAC7B9008206F5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B5D4A122FAC7B9008206F5 /* libz.tbd */; };
 		18B5D4A422FAC7C1008206F5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B5D4A322FAC7C1008206F5 /* libc++.tbd */; };
@@ -137,6 +109,11 @@
 		18D298F2239610F8009EE6B0 /* YMAIReplyCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D298F0239610F8009EE6B0 /* YMAIReplyCell.h */; };
 		18D298F3239610F8009EE6B0 /* YMAIReplyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D298F1239610F8009EE6B0 /* YMAIReplyCell.m */; };
 		18D8B18E227EFEC3007AE9EC /* TKRemoteControlScript.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 18D8B18D227EFDFF007AE9EC /* TKRemoteControlScript.scpt */; };
+		1EFE560BE68CA0FC7F4CD4A5 /* libPods-WeChatExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9994953E048F767CA66F6230 /* libPods-WeChatExtension.a */; };
+		2CDE369C23CEEA71003609F8 /* CTBlockDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDE369A23CEEA71003609F8 /* CTBlockDescription.h */; };
+		2CDE369D23CEEA71003609F8 /* CTBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE369B23CEEA71003609F8 /* CTBlockDescription.m */; };
+		2CDE36C623CF008C003609F8 /* MessageHandlerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDE36C423CF008C003609F8 /* MessageHandlerManager.h */; };
+		2CDE36C723CF008C003609F8 /* MessageHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE36C523CF008C003609F8 /* MessageHandlerManager.m */; };
 		3632293F22A6ADB300F62EAB /* LockPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3632293E22A6ADB300F62EAB /* LockPlist.plist */; };
 		3632294222AFD9CF00F62EAB /* YMThemeMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 3632294022AFD9CF00F62EAB /* YMThemeMgr.h */; };
 		3632294322AFD9CF00F62EAB /* YMThemeMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 3632294122AFD9CF00F62EAB /* YMThemeMgr.m */; };
@@ -151,7 +128,6 @@
 		36AC9D87228A813F00EA9F97 /* YMDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AC9D85228A813F00EA9F97 /* YMDownloadManager.h */; };
 		36AC9D8A228A81C200EA9F97 /* XMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AC9D88228A81C200EA9F97 /* XMLReader.h */; };
 		36AC9D8B228A81C200EA9F97 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC9D89228A81C200EA9F97 /* XMLReader.m */; };
-		8EB413EE2E0AB9424DB91B42 /* libPods-WeChatExtensionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B176B73969A171B6926048F /* libPods-WeChatExtensionTests.a */; };
 		96B578BF2360AA8A00F3F66C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96B578C12360AA8A00F3F66C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -164,6 +140,18 @@
 			remoteInfo = WeChatExtension;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CDE36A223CEFE14003609F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1802C087239826CB0061823C /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/TKRemoteControlWindowController.strings"; sourceTree = "<group>"; };
@@ -262,34 +250,6 @@
 		18A7A12F2272ACE900361A98 /* WeChatPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatPlugin.h; sourceTree = "<group>"; };
 		18A7A1312272AF0000361A98 /* libGCDWebServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGCDWebServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A7A1332272AF5300361A98 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		18A7A1372272AFE600361A98 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
-		18A7A1382272AFE600361A98 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
-		18A7A1392272AFE600361A98 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
-		18A7A13A2272AFE600361A98 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
-		18A7A13B2272AFE600361A98 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
-		18A7A13C2272AFE600361A98 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
-		18A7A13D2272AFE600361A98 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
-		18A7A13E2272AFE600361A98 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
-		18A7A13F2272AFE600361A98 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
-		18A7A1402272AFE600361A98 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
-		18A7A1412272AFE600361A98 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
-		18A7A1422272AFE600361A98 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
-		18A7A1442272AFE600361A98 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
-		18A7A1452272AFE600361A98 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
-		18A7A1462272AFE600361A98 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
-		18A7A1472272AFE600361A98 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
-		18A7A1482272AFE600361A98 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
-		18A7A1492272AFE600361A98 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
-		18A7A14A2272AFE600361A98 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
-		18A7A14B2272AFE600361A98 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
-		18A7A14D2272AFE600361A98 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
-		18A7A14E2272AFE600361A98 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
-		18A7A14F2272AFE600361A98 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
-		18A7A1502272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
-		18A7A1512272AFE600361A98 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
-		18A7A1522272AFE600361A98 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
-		18A7A1532272AFE600361A98 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
-		18A7A1542272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
 		18B5D49F22FAC7AD008206F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		18B5D4A122FAC7B9008206F5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		18B5D4A322FAC7C1008206F5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -302,7 +262,12 @@
 		18D298F0239610F8009EE6B0 /* YMAIReplyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMAIReplyCell.h; sourceTree = "<group>"; };
 		18D298F1239610F8009EE6B0 /* YMAIReplyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAIReplyCell.m; sourceTree = "<group>"; };
 		18D8B18D227EFDFF007AE9EC /* TKRemoteControlScript.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = TKRemoteControlScript.scpt; sourceTree = "<group>"; };
-		1ECC036067C0A58DC4D5A272 /* libPods-WeChatExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDE369A23CEEA71003609F8 /* CTBlockDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBlockDescription.h; sourceTree = "<group>"; };
+		2CDE369B23CEEA71003609F8 /* CTBlockDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBlockDescription.m; sourceTree = "<group>"; };
+		2CDE36A323CEFE7C003609F8 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDE36A523CEFE7F003609F8 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDE36C423CF008C003609F8 /* MessageHandlerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageHandlerManager.h; sourceTree = "<group>"; };
+		2CDE36C523CF008C003609F8 /* MessageHandlerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageHandlerManager.m; sourceTree = "<group>"; };
 		3632293E22A6ADB300F62EAB /* LockPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LockPlist.plist; sourceTree = "<group>"; };
 		3632294022AFD9CF00F62EAB /* YMThemeMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMThemeMgr.h; sourceTree = "<group>"; };
 		3632294122AFD9CF00F62EAB /* YMThemeMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMThemeMgr.m; sourceTree = "<group>"; };
@@ -317,7 +282,8 @@
 		36AC9D85228A813F00EA9F97 /* YMDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDownloadManager.h; sourceTree = "<group>"; };
 		36AC9D88228A81C200EA9F97 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		36AC9D89228A81C200EA9F97 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
-		8B176B73969A171B6926048F /* libPods-WeChatExtensionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatExtensionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534D595804041842044A5A9E /* Pods-WeChatExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatExtension.release.xcconfig"; path = "Target Support Files/Pods-WeChatExtension/Pods-WeChatExtension.release.xcconfig"; sourceTree = "<group>"; };
+		5666653683F8693C691C5443 /* Pods-WeChatExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatExtension.debug.xcconfig"; path = "Target Support Files/Pods-WeChatExtension/Pods-WeChatExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		96B578B52360A92500F3F66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		96B578BC2360A9D100F3F66C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		96B578BD2360A9D200F3F66C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
@@ -328,6 +294,7 @@
 		96D8D0952360BC6A0025BAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TKRemoteControlWindowController.strings; sourceTree = "<group>"; };
 		96D8D0972360BC6C0025BAD6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TKRemoteControlWindowController.strings"; sourceTree = "<group>"; };
 		96D8D0992360BC6E0025BAD6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/TKRemoteControlWindowController.strings"; sourceTree = "<group>"; };
+		9994953E048F767CA66F6230 /* libPods-WeChatExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +306,7 @@
 				18B5D4A222FAC7B9008206F5 /* libz.tbd in Frameworks */,
 				18B5D4A022FAC7AD008206F5 /* Security.framework in Frameworks */,
 				18A7A1342272AF5300361A98 /* SystemConfiguration.framework in Frameworks */,
+				1EFE560BE68CA0FC7F4CD4A5 /* libPods-WeChatExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +315,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				188A655822718C400096663E /* WeChatExtension.framework in Frameworks */,
-				8EB413EE2E0AB9424DB91B42 /* libPods-WeChatExtensionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +337,7 @@
 				188A655B22718C400096663E /* WeChatExtensionTests */,
 				188A654F22718C400096663E /* Products */,
 				600807371BAE90444753E469 /* Frameworks */,
+				D1D4F79257F11E727AB8529F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -409,7 +377,6 @@
 			children = (
 				1853B3B922C6105900A5C4FA /* ANYMethodLog */,
 				3644BDF32285545500EDE358 /* TCB */,
-				18A7A1352272AFE600361A98 /* GCDWebServer */,
 				188A658C2272ACBA0096663E /* WindowControllers */,
 				188A65A32272ACBA0096663E /* Config */,
 				188A65A62272ACBA0096663E /* Managers */,
@@ -521,6 +488,10 @@
 		188A65B62272ACBA0096663E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2CDE36C423CF008C003609F8 /* MessageHandlerManager.h */,
+				2CDE36C523CF008C003609F8 /* MessageHandlerManager.m */,
+				2CDE369A23CEEA71003609F8 /* CTBlockDescription.h */,
+				2CDE369B23CEEA71003609F8 /* CTBlockDescription.m */,
 				188A65B72272ACBA0096663E /* YMHelper.h */,
 				188A65B92272ACBA0096663E /* YMHelper.m */,
 				188A65BA2272ACBA0096663E /* YMUtility.h */,
@@ -649,65 +620,6 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
-		18A7A1352272AFE600361A98 /* GCDWebServer */ = {
-			isa = PBXGroup;
-			children = (
-				18A7A1362272AFE600361A98 /* Core */,
-				18A7A1432272AFE600361A98 /* Responses */,
-				18A7A14C2272AFE600361A98 /* Requests */,
-			);
-			path = GCDWebServer;
-			sourceTree = "<group>";
-		};
-		18A7A1362272AFE600361A98 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				18A7A1372272AFE600361A98 /* GCDWebServerFunctions.h */,
-				18A7A1382272AFE600361A98 /* GCDWebServerPrivate.h */,
-				18A7A1392272AFE600361A98 /* GCDWebServerResponse.m */,
-				18A7A13A2272AFE600361A98 /* GCDWebServerConnection.h */,
-				18A7A13B2272AFE600361A98 /* GCDWebServer.h */,
-				18A7A13C2272AFE600361A98 /* GCDWebServerRequest.m */,
-				18A7A13D2272AFE600361A98 /* GCDWebServerHTTPStatusCodes.h */,
-				18A7A13E2272AFE600361A98 /* GCDWebServerResponse.h */,
-				18A7A13F2272AFE600361A98 /* GCDWebServerFunctions.m */,
-				18A7A1402272AFE600361A98 /* GCDWebServer.m */,
-				18A7A1412272AFE600361A98 /* GCDWebServerConnection.m */,
-				18A7A1422272AFE600361A98 /* GCDWebServerRequest.h */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		18A7A1432272AFE600361A98 /* Responses */ = {
-			isa = PBXGroup;
-			children = (
-				18A7A1442272AFE600361A98 /* GCDWebServerFileResponse.h */,
-				18A7A1452272AFE600361A98 /* GCDWebServerStreamedResponse.h */,
-				18A7A1462272AFE600361A98 /* GCDWebServerErrorResponse.m */,
-				18A7A1472272AFE600361A98 /* GCDWebServerDataResponse.h */,
-				18A7A1482272AFE600361A98 /* GCDWebServerFileResponse.m */,
-				18A7A1492272AFE600361A98 /* GCDWebServerDataResponse.m */,
-				18A7A14A2272AFE600361A98 /* GCDWebServerErrorResponse.h */,
-				18A7A14B2272AFE600361A98 /* GCDWebServerStreamedResponse.m */,
-			);
-			path = Responses;
-			sourceTree = "<group>";
-		};
-		18A7A14C2272AFE600361A98 /* Requests */ = {
-			isa = PBXGroup;
-			children = (
-				18A7A14D2272AFE600361A98 /* GCDWebServerDataRequest.h */,
-				18A7A14E2272AFE600361A98 /* GCDWebServerMultiPartFormRequest.h */,
-				18A7A14F2272AFE600361A98 /* GCDWebServerFileRequest.h */,
-				18A7A1502272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.m */,
-				18A7A1512272AFE600361A98 /* GCDWebServerMultiPartFormRequest.m */,
-				18A7A1522272AFE600361A98 /* GCDWebServerDataRequest.m */,
-				18A7A1532272AFE600361A98 /* GCDWebServerFileRequest.m */,
-				18A7A1542272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.h */,
-			);
-			path = Requests;
-			sourceTree = "<group>";
-		};
 		3644BDF32285545500EDE358 /* TCB */ = {
 			isa = PBXGroup;
 			children = (
@@ -724,15 +636,25 @@
 		600807371BAE90444753E469 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2CDE36A523CEFE7F003609F8 /* AFNetworking.framework */,
+				2CDE36A323CEFE7C003609F8 /* JRSwizzle.framework */,
 				18B5D4A322FAC7C1008206F5 /* libc++.tbd */,
 				18B5D4A122FAC7B9008206F5 /* libz.tbd */,
 				18B5D49F22FAC7AD008206F5 /* Security.framework */,
 				18A7A1332272AF5300361A98 /* SystemConfiguration.framework */,
 				18A7A1312272AF0000361A98 /* libGCDWebServer.a */,
-				1ECC036067C0A58DC4D5A272 /* libPods-WeChatExtension.a */,
-				8B176B73969A171B6926048F /* libPods-WeChatExtensionTests.a */,
+				9994953E048F767CA66F6230 /* libPods-WeChatExtension.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1D4F79257F11E727AB8529F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5666653683F8693C691C5443 /* Pods-WeChatExtension.debug.xcconfig */,
+				534D595804041842044A5A9E /* Pods-WeChatExtension.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -745,29 +667,23 @@
 				3644BDFB2285545500EDE358 /* TCBlobDownloadManager.h in Headers */,
 				3644BDFD2285545500EDE358 /* TCBlobDownloader.h in Headers */,
 				188A65FA2272ACBA0096663E /* TKAutoReplyWindowController.h in Headers */,
-				18A7A16B2272AFE600361A98 /* GCDWebServerFileRequest.h in Headers */,
 				188A66032272ACBA0096663E /* TKAssistantMenuManager.h in Headers */,
 				188A661E2272ACBA0096663E /* NSMenu+Action.h in Headers */,
 				188A66152272ACBA0096663E /* TKIgnoreSessonModel.h in Headers */,
+				2CDE36C623CF008C003609F8 /* MessageHandlerManager.h in Headers */,
 				188A662F2272ACBA0096663E /* NotifyConstant.h in Headers */,
 				188A663F2272ACBA0096663E /* YMMessageModel.h in Headers */,
-				18A7A15B2272AFE600361A98 /* GCDWebServerHTTPStatusCodes.h in Headers */,
-				18A7A1602272AFE600361A98 /* GCDWebServerRequest.h in Headers */,
-				18A7A1642272AFE600361A98 /* GCDWebServerDataResponse.h in Headers */,
-				18A7A15C2272AFE600361A98 /* GCDWebServerResponse.h in Headers */,
 				188A662B2272ACBA0096663E /* NSString+Action.h in Headers */,
 				1853B3C122C6105900A5C4FA /* ANYMethodLog.h in Headers */,
 				188A660B2272ACBA0096663E /* TKRemoteControlManager.h in Headers */,
 				36AC9D8A228A81C200EA9F97 /* XMLReader.h in Headers */,
 				3632294222AFD9CF00F62EAB /* YMThemeMgr.h in Headers */,
-				18A7A16A2272AFE600361A98 /* GCDWebServerMultiPartFormRequest.h in Headers */,
 				188A660E2272ACBA0096663E /* TKHTTPManager.h in Headers */,
 				188A66332272ACBA0096663E /* TKAutoReplyContentView.h in Headers */,
 				188A66112272ACBA0096663E /* YMHelper.h in Headers */,
 				188A66442272ACBA0096663E /* fishhook.h in Headers */,
 				18D298522394EE60009EE6B0 /* YMNetWorkHelper.h in Headers */,
 				188A66232272ACBA0096663E /* NSMenuItem+Action.h in Headers */,
-				18A7A1582272AFE600361A98 /* GCDWebServerConnection.h in Headers */,
 				188A66322272ACBA0096663E /* TKAutoReplyCell.h in Headers */,
 				188A661C2272ACBA0096663E /* YMBaseModel.h in Headers */,
 				188A66272272ACBA0096663E /* NSView+Action.h in Headers */,
@@ -778,14 +694,10 @@
 				188A662D2272ACBA0096663E /* ColorConstant.h in Headers */,
 				185DE0E023ACE208007651B5 /* NSDictionary+Safe.h in Headers */,
 				18D298ED23960C18009EE6B0 /* YMAIReplyWindowController.h in Headers */,
-				18A7A1692272AFE600361A98 /* GCDWebServerDataRequest.h in Headers */,
 				1853B3C422C6133C00A5C4FA /* YMIMContactsManager.h in Headers */,
-				18A7A1562272AFE600361A98 /* GCDWebServerPrivate.h in Headers */,
 				188A65FF2272ACBA0096663E /* TKRemoteControlWindowController.h in Headers */,
 				188A66162272ACBA0096663E /* TKRemoteControlModel.h in Headers */,
 				188A66382272ACBA0096663E /* WeChat+hook.h in Headers */,
-				18A7A1672272AFE600361A98 /* GCDWebServerErrorResponse.h in Headers */,
-				18A7A1552272AFE600361A98 /* GCDWebServerFunctions.h in Headers */,
 				188A66142272ACBA0096663E /* YMUtility.h in Headers */,
 				188A66352272ACBA0096663E /* TKRemoteControlCell.h in Headers */,
 				188A660A2272ACBA0096663E /* TKCacheManager.h in Headers */,
@@ -799,16 +711,13 @@
 				188A66302272ACBA0096663E /* TKPrefixHeader.pch in Headers */,
 				188A661F2272ACBA0096663E /* NSTextField+Action.h in Headers */,
 				188A66262272ACBA0096663E /* NSButton+Action.h in Headers */,
-				18A7A1702272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
-				18A7A1612272AFE600361A98 /* GCDWebServerFileResponse.h in Headers */,
 				188A66372272ACBA0096663E /* MMChatsTableCellView+hook.h in Headers */,
-				18A7A1622272AFE600361A98 /* GCDWebServerStreamedResponse.h in Headers */,
 				188A663D2272ACBA0096663E /* YMMessageTool.h in Headers */,
 				188A662A2272ACBA0096663E /* NSDate+Action.h in Headers */,
+				2CDE369C23CEEA71003609F8 /* CTBlockDescription.h in Headers */,
 				188A661B2272ACBA0096663E /* YMAutoReplyModel.h in Headers */,
 				188A65F82272ACBA0096663E /* TKDownloadWindowController.h in Headers */,
 				18D298F2239610F8009EE6B0 /* YMAIReplyCell.h in Headers */,
-				18A7A1592272AFE600361A98 /* GCDWebServer.h in Headers */,
 				188A66292272ACBA0096663E /* NSWindowController+Action.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -820,11 +729,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 188A656222718C400096663E /* Build configuration list for PBXNativeTarget "WeChatExtension" */;
 			buildPhases = (
+				E892A0527BC99905C0186D40 /* [CP] Check Pods Manifest.lock */,
 				188A654922718C400096663E /* Headers */,
 				188A654A22718C400096663E /* Sources */,
 				188A654B22718C400096663E /* Frameworks */,
 				188A654C22718C400096663E /* Resources */,
 				188A656822718C610096663E /* ShellScript */,
+				2CDE36A223CEFE14003609F8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -839,7 +750,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 188A656522718C400096663E /* Build configuration list for PBXNativeTarget "WeChatExtensionTests" */;
 			buildPhases = (
-				40C35106C7D038A6D8AE0BD2 /* [CP] Check Pods Manifest.lock */,
 				188A655322718C400096663E /* Sources */,
 				188A655422718C400096663E /* Frameworks */,
 				188A655522718C400096663E /* Resources */,
@@ -936,9 +846,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\napp_name=\"WeChat\"\nframework_name=\"WeChatExtension\"\napp_bundle_path=\"/Applications/${app_name}.app/Contents/MacOS\"\napp_executable_path=\"${app_bundle_path}/${app_name}\"\napp_executable_backup_path=\"${app_executable_path}_backup\"\nframework_path=\"${app_bundle_path}/${framework_name}.framework\"\n# 备份WeChat原始可执行文件\nif [ ! -f \"$app_executable_backup_path\" ]\nthen\ncp \"$app_executable_path\" \"$app_executable_backup_path\"\nfi\n\ncp -r \"${BUILT_PRODUCTS_DIR}/${framework_name}.framework\" ${app_bundle_path}\n./insert_dylib --all-yes \"${framework_path}/${framework_name}\" \"$app_executable_backup_path\" \"$app_executable_path\"\n\n";
+			shellScript = "#!/bin/bash\n#app_name=\"WeChat\"\napp_name=\"WeChat\"\nframework_name=\"WeChatExtension\"\n#app_bundle_path=\"/Applications/${app_name}.app/Contents/MacOS\"\napp_bundle_path=\"${LOCSYMROOT}/TargetApp/${app_name}.app/Contents/MacOS\"\necho app_bundle_path\napp_executable_path=\"${app_bundle_path}/${app_name}\"\napp_executable_backup_path=\"${app_executable_path}_backup\"\nframework_path=\"${app_bundle_path}/${framework_name}.framework\"\n# 备份WeChat原始可执行文件\nif [ ! -f \"$app_executable_backup_path\" ]\nthen\ncp \"$app_executable_path\" \"$app_executable_backup_path\"\nfi\n\ncp -r \"${BUILT_PRODUCTS_DIR}/${framework_name}.framework\" ${app_bundle_path}\n./insert_dylib --all-yes \"${framework_path}/${framework_name}\" \"$app_executable_backup_path\" \"$app_executable_path\"\n\n";
 		};
-		40C35106C7D038A6D8AE0BD2 /* [CP] Check Pods Manifest.lock */ = {
+		E892A0527BC99905C0186D40 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -953,7 +863,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WeChatExtensionTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeChatExtension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -967,19 +877,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A7A15E2272AFE600361A98 /* GCDWebServer.m in Sources */,
 				188A663A2272ACBA0096663E /* YMMessageModel.m in Sources */,
-				18A7A1632272AFE600361A98 /* GCDWebServerErrorResponse.m in Sources */,
 				188A661A2272ACBA0096663E /* TKRemoteControlModel.m in Sources */,
 				188A65FE2272ACBA0096663E /* TKRemoteControlWindowController.m in Sources */,
 				36AC9D86228A813F00EA9F97 /* YMDownloadManager.m in Sources */,
 				18D298EE23960C18009EE6B0 /* YMAIReplyWindowController.m in Sources */,
 				188A66022272ACBA0096663E /* TKCacheManager.m in Sources */,
-				18A7A16F2272AFE600361A98 /* GCDWebServerFileRequest.m in Sources */,
+				2CDE369D23CEEA71003609F8 /* CTBlockDescription.m in Sources */,
 				188A66222272ACBA0096663E /* NSString+Action.m in Sources */,
 				188A663E2272ACBA0096663E /* MMStickerMessageCellView+hook.m in Sources */,
-				18A7A15D2272AFE600361A98 /* GCDWebServerFunctions.m in Sources */,
-				18A7A15F2272AFE600361A98 /* GCDWebServerConnection.m in Sources */,
 				18A7A12E2272ACE300361A98 /* main.mm in Sources */,
 				188A66202272ACBA0096663E /* NSView+Action.m in Sources */,
 				188A65FC2272ACBA0096663E /* TKAutoReplyWindowController.m in Sources */,
@@ -989,7 +895,6 @@
 				188A66412272ACBA0096663E /* WeChat+hook.m in Sources */,
 				188A66282272ACBA0096663E /* NSTextField+Action.m in Sources */,
 				3644BDF92285545500EDE358 /* TCBlobDownloadManager.m in Sources */,
-				18A7A16C2272AFE600361A98 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
 				188A66182272ACBA0096663E /* YMBaseModel.m in Sources */,
 				188A66362272ACBA0096663E /* TKRemoteControlCell.m in Sources */,
 				188A66062272ACBA0096663E /* TKRemoteControlManager.m in Sources */,
@@ -1001,27 +906,21 @@
 				188A66212272ACBA0096663E /* NSWindowController+Action.m in Sources */,
 				188A66342272ACBA0096663E /* TKAutoReplyCell.m in Sources */,
 				188A66052272ACBA0096663E /* TKVersionManager.m in Sources */,
-				18A7A16E2272AFE600361A98 /* GCDWebServerDataRequest.m in Sources */,
-				18A7A1662272AFE600361A98 /* GCDWebServerDataResponse.m in Sources */,
-				18A7A1652272AFE600361A98 /* GCDWebServerFileResponse.m in Sources */,
 				188A66432272ACBA0096663E /* fishhook.c in Sources */,
+				2CDE36C723CF008C003609F8 /* MessageHandlerManager.m in Sources */,
 				188A65F62272ACBA0096663E /* TKAboutWindowController.m in Sources */,
 				188A66132272ACBA0096663E /* YMHelper.m in Sources */,
 				188A66172272ACBA0096663E /* YMAutoReplyModel.m in Sources */,
 				185DE0E123ACE208007651B5 /* NSDictionary+Safe.m in Sources */,
 				188A66422272ACBA0096663E /* MMChatsTableCellView+hook.m in Sources */,
-				18A7A1682272AFE600361A98 /* GCDWebServerStreamedResponse.m in Sources */,
 				188A66092272ACBA0096663E /* TKAssistantMenuManager.m in Sources */,
 				3644BE012285549100EDE358 /* YMUpdateManager.m in Sources */,
 				1853B3BF22C6105900A5C4FA /* ANYMethodLog.m in Sources */,
 				188A663C2272ACBA0096663E /* YMMessageTool.m in Sources */,
 				188A66072272ACBA0096663E /* TKHTTPManager.m in Sources */,
-				18A7A1572272AFE600361A98 /* GCDWebServerResponse.m in Sources */,
 				188A66102272ACBA0096663E /* TKWebServerManager.m in Sources */,
 				188A66122272ACBA0096663E /* YMUtility.m in Sources */,
 				18D298F3239610F8009EE6B0 /* YMAIReplyCell.m in Sources */,
-				18A7A15A2272AFE600361A98 /* GCDWebServerRequest.m in Sources */,
-				18A7A16D2272AFE600361A98 /* GCDWebServerMultiPartFormRequest.m in Sources */,
 				188A66312272ACBA0096663E /* TKAutoReplyContentView.m in Sources */,
 				188A66242272ACBA0096663E /* NSDate+Action.m in Sources */,
 				18D298532394EE60009EE6B0 /* YMNetWorkHelper.m in Sources */,
@@ -1209,6 +1108,7 @@
 		};
 		188A656322718C400096663E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5666653683F8693C691C5443 /* Pods-WeChatExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
@@ -1242,6 +1142,7 @@
 		};
 		188A656422718C400096663E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534D595804041842044A5A9E /* Pods-WeChatExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;

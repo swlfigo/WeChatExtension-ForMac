@@ -62,7 +62,7 @@
       <PathRunnable
          runnableDebuggingMode = "0"
          BundleIdentifier = "com.tencent.xinWeChat"
-         FilePath = "/Applications/WeChat.app">
+         FilePath = "/Volumes/FileSys/WeChatExtension-ForMac/WeChatExtension/TargetApp/WeChat.app">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference

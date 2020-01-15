@@ -225,6 +225,10 @@ FOUNDATION_EXPORT const unsigned char WeChatPluginVersionString[];
 @end
 
 @interface WCContactData : NSObject
+@property(nonatomic) unsigned int m_uiCertificationFlag;
+@property(retain, nonatomic) NSString *m_nsFullPY;
+@property(retain, nonatomic) NSString *m_nsRemarkPYShort;
+@property(retain, nonatomic) NSString *m_nsRemarkPYFull;
 @property(retain, nonatomic) NSString *m_nsUsrName; // @synthesize m_nsUsrName;
 @property(nonatomic) unsigned int m_uiFriendScene;  // @synthesize m_uiFriendScene;
 @property(retain, nonatomic) NSString *m_nsNickName;    // 用户昵称
@@ -484,60 +488,7 @@ FOUNDATION_EXPORT const unsigned char WeChatPluginVersionString[];
 
 @end
 
-@interface AFHTTPResponseSerializer : NSObject
-@property (nonatomic, copy, nullable) NSSet <NSString *> *acceptableContentTypes;
-@end
 
-@interface AFURLSessionManager : NSObject
-- (NSURLSessionDownloadTask *)downloadTaskWithRequest:(NSURLRequest *)request
-                                             progress:(void (^)(NSProgress *downloadProgress))downloadProgressBlock
-                                          destination:(NSURL * (^)(NSURL *targetPath, NSURLResponse *response))destination
-                                    completionHandler:(void (^)(NSURLResponse *response, NSURL * filePath, NSError * error))completionHandler;
-- (id)initWithSessionConfiguration:(id)arg1;
-@end
-
-@interface AFHTTPRequestSerializer : NSObject
-@property (nullable, copy) NSData *HTTPBody;
-+ (id)serializer;
-@property (nonatomic, assign) NSTimeInterval timeoutInterval;
-@property(nonatomic) unsigned long long cachePolicy;
-- (void)setValue:(nullable NSString *)value
-forHTTPHeaderField:(NSString *)field;
-@property (nonatomic, strong) NSSet <NSString *> *HTTPMethodsEncodingParametersInURI;
-@end
-
-@protocol AFMultipartFormData
-- (void)appendPartWithFormData:(NSData *)data
-                          name:(NSString *)name;
-
-- (void)appendPartWithFileData:(NSData *)data
-                          name:(NSString *)name
-                      fileName:(NSString *)fileName
-                      mimeType:(NSString *)mimeType;
-@end
-
-@interface AFHTTPSessionManager : NSObject
-+ (AFHTTPSessionManager *)manager;
-@property(retain, nonatomic) AFHTTPRequestSerializer *requestSerializer;
-@property(retain, nonatomic) AFHTTPResponseSerializer *responseSerializer;
-- (nullable NSURLSessionDataTask *)POST:(NSString *)URLString
-                             parameters:(nullable id)parameters
-              constructingBodyWithBlock:(nullable void (^)(id <AFMultipartFormData> formData))block
-                                success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
-                                failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
-
-- (nullable NSURLSessionDataTask *)POST:(NSString *)URLString
-                             parameters:(nullable id)parameters
-                               progress:(nullable void (^)(NSProgress *uploadProgress))uploadProgress
-                                success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
-                                failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
-
-- (nullable NSURLSessionDataTask *)GET:(NSString *)URLString
-                            parameters:(nullable id)parameters
-                              progress:(nullable void (^)(NSProgress *downloadProgress))downloadProgress
-                               success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
-                               failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
-@end
 
 @interface MMURLHandler : NSObject
 + (id)defaultHandler;
